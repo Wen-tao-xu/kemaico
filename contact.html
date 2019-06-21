@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="kemaico">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+	<link rel="stylesheet" href="./css/public.css">
+	<link rel="stylesheet" href="./css/contact.css">
+	<script src="./js/jquery.js"></script>
+	<script src="./js/translate.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=Q8kYs7zlimIer0TQkcRCELjOUDLyyCit"></script>
+</head>
+<body>
+    <!-- 头部 -->
+	<nav class="nav flex">
+            <img src="./images/logo.png" alt="" class="logo" onclick="window.location.href='./index.html'">
+            <!-- 手机端导航 -->
+            <ul class="nav_mobile">
+                <li><a href="index.html" class="trn" data-trn-key="Home">HOME</a></li>
+                <li><a href="product.html" class="trn" data-trn-key="Product">PRODUCT</a></li>
+                <li><a href="industry.html" class="trn" data-trn-key="Industry">INDUSTRY</a></li>
+                <li><a href="information.html" class="trn" data-trn-key="Information">INFORMATION</a></li>
+                <li><a href="case.html" class="trn" data-trn-key="Case">CASE</a></li>
+                <li><a href="aboutUs.html" class="trn" data-trn-key="Aboutus">ABOUT US</a></li>
+                <li><a href="contact.html" class="active trn" data-trn-key="Contact">CONTACT US</a></li>
+            </ul>
+            <!-- Pc端导航 -->
+            <ul class="nav_ul flex">
+				<li><a href="index.html" class="trn" data-trn-key="Home">HOME</a></li>
+				<li><a href="product.html" class="trn" data-trn-key="Product">PRODUCT</a></li>
+				<li><a href="industry.html" class="trn" data-trn-key="Industry">INDUSTRY</a></li>
+				<li><a href="information.html" class="trn" data-trn-key="Information">INFORMATION</a></li>
+				<li><a href="case.html" class="trn" data-trn-key="Case">CASE</a></li>
+				<li><a href="aboutUs.html" class="trn" data-trn-key="Aboutus">ABOUT US</a></li>
+				<li><a href="contact.html" class="active trn" data-trn-key="Contact">CONTACT US</a></li>
+            </ul>
+            <div class="flex more-box">
+                <div class="language">
+                        <img src="./images/cn.png" alt="" class="change_lang" data-value="ch">
+                        <span class="line_clo flex"></span>
+                        <img src="./images/en.png" alt=""class="change_lang" data-value="en">
+                </div>
+                <img src="./images/more.png" alt="" class="more">
+            </div>
+    </nav>
+    <!-- banner -->
+	<div class="banner"><img src="./images/us_banner.png" alt=""></div>
+	<!-- 主要内容 -->
+		<!-- 地址 -->
+<div class="address">
+        <div class="address_text trn" data-trn-key="CompanyAdd">COMPANY ADDRESS</div>
+        <!-- <img class="address_img" src="/static/home/images/map.png" alt=""> -->
+		<iframe class="address_img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2956.0620269713263!2d-87.93623388425544!3d42.19174125370647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fbdd89817e225%3A0xb5be58f164ce1c0d!2s300+Knightsbridge+Pkwy+%23113%2C+Lincolnshire%2C+IL+60069!5e0!3m2!1szh-CN!2sus!4v1550195172137" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<!-- 百度地图 -->
+		<div id="baiduMap"></div>
+		
+        <div class="address_textBox flex">
+            <div class="address_t1"><span class="trn" data-trn-key="Kadd">ADD: </span><i class="trn" data-trn-key="Kadd_txt">9/F, Fuzhong International Plaza, No.72 Xinhua Road, Nanming District, Guiyang, China (550001)</i></div>
+			<div class="address_t1"><span class="trn" data-trn-key="Add2"></span><i class="trn" data-trn-key="Add2_txt"></i></div>
+			<div class="address_t1"><span class="trn" data-trn-key="Add3"></span><i class="trn" data-trn-key="Add3_txt"></i></div>
+			<div class="address_t1"><span class="trn" data-trn-key="Tel">TEL: </span>86-851-88639106 /  86-851-88517787</div>
+            <div class="address_t1"><span class="trn" data-trn-key="Email">E-MAIL: </span>office@kemaico.com / info@kemaico.com</div>
+        </div>
+    </div>
+        <!-- 填写资料 -->
+<div class="inputBox">
+        <div class="inputBox_title trn" data-trn-key="Contact">CONTACT US</div>
+        <div class="inputBox_subTitle trn" data-trn-key="yougei">You give us how much trust  we will give you how much surprise</div>
+        <form id="request_message">
+            <div class="fillInBox flex">
+                <input class="fillIn_input name_input" type="text" placeholder="Your Name" name="name">
+                <input class="fillIn_input email_input" type="text" placeholder="Email" name="email">
+                <input class="fillIn_input phone_input" type="text" placeholder="Phone" name="phone">
+                <input class="fillIn_input company_input" type="text" placeholder="Company" name="company">
+                <input class="fillIn_input title_input" type="text" placeholder="Title" name="title">
+                <textarea class="fillIn_textarea content_input" placeholder="Content" name="content"></textarea>
+            </div>
+            <div class="inputBox_btn flex trn" data-trn-key="Send">SEND</div>
+        </form>
+    </div>
+     <!-- 底部 -->
+	 <div class="footer">
+		<div class="footer_top">
+			<div class="footer_top_t1 flex">
+				<img src="./images/location.png" alt="">
+				<div class="trn" data-trn-key="Address">9/F, Fuzhong International Plaza, No.72 XinHua Road,Nanming District, Guiyang, Guizhou,China, 550001</div>
+			</div>
+			<div class="footer_top_t2 flex">
+				<div class="footer_top_t2_li flex">
+					<img src="./images/phone.png" alt="">
+					<div><p>+86-851-88639105</p><p>+86-851-88639106</p></div>
+				</div>
+				<div class="footer_top_t2_li flex">
+					<img src="./images/email.png" alt="">
+					<div>office@kemaico.com</div>
+				</div>
+				<div class="footer_top_t2_li flex">
+					<img src="./images/phone2.png" alt="">
+					<div>+86-851-88639108</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_line">
+			<span class="line"></span><img class="footer_logo" src="./images/logo2.png" alt=""><span class="line"></span>
+		</div>
+		<div class="footer_bottom">
+			<div class="footer_bottom_aBox flex">
+				<div class="footer_bottom_li" ><a href="./index.html" class="trn" data-trn-key="Home">HOME</a></div>
+				<div class="footer_bottom_li" ><a href="./product.html" class="trn" data-trn-key="Product">PRODUCT</a></div>
+				<div class="footer_bottom_li"><a href="./industry.html" class="trn" data-trn-key="Industry">INDUSTRY</a></div>
+				<div class="footer_bottom_li" ><a href="./information.html" class="trn" data-trn-key="Information">INFORMATION</a></div>
+				<div class="footer_bottom_li" ><a href="./case.html" class="trn" data-trn-key="Case">CASE</a></div>
+				<div class="footer_bottom_li" ><a href="./aboutUs.html" class="trn" data-trn-key="Aboutus">ABOUT US</a></div>
+				<div class="footer_bottom_li" ><a href="./contact.html" class="trn" data-trn-key="Contact">CONTACT US</a></div>
+			</div>
+			<div class="contact">
+				<a href="https://www.facebook.com/profile.php?id=100009841548864&fref=pb&hc_location=friends_tab">
+					<img src="./images/facebook.png" alt="">
+				</a>
+				<a href="https://twitter.com/KemaicoUSACorp?lang=en">
+					<img src="./images/tw.png" alt="">
+				</a>
+				<a href="#">
+					<img src="./images/goole.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="./js/index.js"></script>
+	<script>
+		$("[data-value='ch']").click(function(){
+			$(".name_input").attr("placeholder","你的名字")
+			$(".email_input").attr("placeholder","邮箱");
+			$(".phone_input").attr("placeholder","电话")
+			$(".company_input").attr("placeholder","公司")
+			$(".title_input").attr("placeholder","标题")
+			$(".content_input").attr("placeholder","内容")
+		})
+		$("[data-value='en']").click(function(){
+			$(".name_input").attr("placeholder","Your Name")
+			$(".email_input").attr("placeholder","Email");
+			$(".phone_input").attr("placeholder","Phone")
+			$(".company_input").attr("placeholder","Company")
+			$(".title_input").attr("placeholder","Title")
+			$(".content_input").attr("placeholder","Content")
+		})
+		// baiduMap
+		  //创建和初始化地图函数：
+		  function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("baiduMap");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(106.725166,26.572855);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.disableScrollWheelZoom();//禁用地图滚轮放大缩小，默认禁用(可不写)
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"公司地址",content:"新华路72号富中国际广场9楼F座",point:"106.725283|26.57292",isOpen:0,icon:{w:21,h:21,l:46,t:0,x:6,lb:5}}
+		 ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var marker = new BMap.Marker(point);
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    
+    initMap();//创建和初始化地图
+	</script>
+</body>
+</html>

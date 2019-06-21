@@ -1,0 +1,138 @@
+.application {
+    margin-top: 0.67rem;
+    width: 100%;
+}
+
+.application_li {
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.31rem;
+}
+
+.application_li img {
+    width: 3.958rem;
+    height: 2.291rem;
+    position: relative;
+    z-index: 99;
+
+}
+
+.application_li img:nth-child(odd) {
+    margin-top: 40px;
+}
+
+/* .application_li img:nth-child(even) {
+    margin-top: 40px;
+    margin-left: -150px;
+} */
+.application_li_textBox {
+    width: 4.739rem;
+    height: 2.291rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.application_li_textBoxA {
+    margin-left: -150px;
+    padding-left: 150px;
+    background: #212121;
+    color: rgba(254, 254, 254, 1);
+}
+
+.application_li_textBoxB {
+    margin-right: -150px;
+    padding-right: 150px;
+    margin-top: 40px;
+    background: #fff;
+    box-shadow: 0px 4px 18px 0px rgba(13, 4, 8, 0.32);
+    color: #003567;
+}
+
+.application_li_text_t1 {
+    font-size: 0.1875rem;
+    padding-left: 0.218rem;
+}
+
+.application_li_text_t2 {
+    font-size: 0.125rem;
+    padding-left: 0.218rem;
+    margin-top: 0.104rem;
+    line-height: 0.162rem;
+}
+
+.application_li_line {
+    width: 0.52rem;
+    height: 4px;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 0.104rem;
+}
+
+.application_li_line2 {
+    width: 0.52rem;
+    height: 4px;
+    background: #003567;
+    margin-top: 0.104rem;
+}
+
+@media only screen and (max-width:980px) {
+    .application_li_text_t2 {
+
+        line-height: 16px;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .application_li {
+        display: block;
+        /* text-align: center; */
+    }
+
+    .application_li img {
+        width: 300px;
+        height: 173.6px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .application_li img:nth-child(odd) {
+        margin-top: 0;
+    }
+
+    /* .application_li img:nth-child(even) {
+    margin-top: 40px;
+    margin-left: -150px;
+} */
+    .application_li_textBox {
+        width: 300px;
+        height: 173.6px;
+        margin: 0 auto;
+        /* display: block; */
+    }
+
+    .application_li_textBoxA {
+        /* margin-left: 0; */
+        padding-left: 0;
+    }
+
+    .application_li_textBoxB {
+        /* margin-right: 0; */
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    /* .application_li_text_t1 {
+        padding-left: 0.218rem;
+    }
+
+    .application_li_text_t2 {
+        padding-left: 0.218rem;
+        margin-top: 0.104rem;
+    } */
+    .application_li_text_t1 {
+        font-size: 16px;
+    }
+
+    .application_li_text_t2 {
+        font-size: 14px;
+    }
+}

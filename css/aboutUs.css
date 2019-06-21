@@ -1,0 +1,249 @@
+.videoParent {
+    width: 7.19rem;
+    height: 3.64rem;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.videoBox {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 0.677rem;
+    position: relative;
+    overflow: hidden;
+}
+.myVideo {
+    display: block;
+    width: 100%;
+    height: 0;
+    margin: 0 auto;
+    /* margin-top: 0.677rem; */
+    object-fit:fill;
+}
+.video_img {
+    width: 100%;
+    height: 100%;
+}
+.video_play {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+.video_play_img {
+    width: 0.677rem;
+    height: 0.677rem;
+    cursor: pointer;
+}
+.textIntroduction {
+    width: 7.19rem;
+    margin: 0 auto;
+    margin-top: 1.041667rem;
+}
+.textIntroductionTitle {
+    text-align: center;
+    margin-top: 0.182rem;
+    font-size:0.25rem;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.textIntroductionTitle span {
+    font-size: 0.1875rem;
+}
+.textIntroductionCon {
+    font-size: 0.1875rem;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    margin-top: 0.26rem;
+}
+.imgText {
+    margin-top: 0.26rem;
+}
+.imgText_img {
+    width: 4.166rem;
+    height: 4.166rem;
+}
+.imgText_text {
+    flex: 1;
+    height: 4.166rem;
+    box-sizing: border-box;
+
+    align-items: center;
+}
+.imgText_textA {
+    background: #212121;
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem;
+    color:rgba(255,255,255,1);
+}
+.imgText_textB {
+    background: #ffffff;
+    /* padding-left: 0.5rem;
+    padding-right: 0.3125rem; */
+    padding: 0 0.3rem;
+    color:rgba(51,51,51,1);
+}
+.imgText_text_box {
+    width: 100%;
+}
+.imgText_text_title {
+    font-size:0.208rem;
+    font-weight:bold;
+    text-align: center;
+}
+.imgText_text_con {
+    font-size:0.1875rem;
+    font-weight:500;
+    margin-top: 0.182rem;
+    line-height: 0.25rem;
+}
+.numberBox {
+    text-align: center;
+    width: 100%;
+    margin-top: 0.416rem;
+}
+.number {
+    width: 4.401rem;
+    /* display: inline-block; */
+    border-top: 2px solid #646464;
+    border-bottom: 2px solid #646464;
+    padding: 0.3125rem 0.052rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.number_li_t1 {
+    font-size:0.3125rem;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+.number_li_t2 {
+    font-size:0.156rem;
+    font-weight:500;
+    color:rgba(99,99,99,1);
+    margin-top: 0.104rem;
+}
+.certificate {
+    background:#212121;
+    margin-top: 0.677rem;
+    padding: 0.52rem 1.041rem;
+    box-sizing: border-box;
+    color: #fff;
+}
+.certificate_title {
+    text-align: center;
+    font-size:0.25rem;
+    font-weight:bold;
+}
+.certificate_subTitle {
+    font-size:0.208rem;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    margin-top: 0.26rem;
+    text-align: center;
+}
+.certificate_con {
+    font-size:0.1875rem;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    margin-top: 0.1875rem;
+}
+.certificate_img {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.302rem;
+}
+.certificate_img img {
+    height: 1.83rem;
+}
+.factory {
+    margin-top: 0.677rem;
+    justify-content: center;
+    align-items: center;
+}
+.factory_img {
+    width: 3.979rem;
+    height: 3.166rem;
+    margin-right: 0.3125rem;
+
+}
+.factory_text {
+    width: 3.614rem;
+}
+.factory_text_t1 {
+    font-size:0.25rem;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    text-align: center;
+    width: 100%;
+}
+.factory_text_t2 {
+    font-size:0.1875rem;
+    /* font-weight:500; */
+    color:rgba(51,51,51,1);
+    width: 100%;
+    /* word-wrap: break-word; */
+    margin-top: 0.197rem;
+}
+
+@media only screen and (max-width:780px) {
+    .number {
+        width: 200px;
+    }
+}
+@media only screen and (max-width:660px) {
+    .imgText_text_con {
+    
+        line-height: 16px;
+    }
+}
+@media only screen and (max-width:415px) {
+    .certificate_title {
+        font-size:14px;
+    }
+    .certificate_subTitle {
+        font-size:12px
+    }
+    .certificate_con {
+        font-size:12px;
+    }
+    .imgText_textA {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+    .imgText_textB {
+        padding: 0 0.2rem;
+    }
+    .imgText_text_con {
+        margin-top: 0;
+    }
+    .factory_text {
+        width: 4.6rem;
+    }
+    .textIntroductionTitle {
+        font-size: 16px;
+    }
+    .textIntroductionTitle span {
+        font-size: 12px;
+    }
+    .textIntroductionCon {
+        font-size: 14px;
+    }
+    .imgText_text_title {
+        font-size:14px;
+    }
+    .imgText_text_con {
+        font-size:12px;
+    }
+    .factory_text_t1 {
+        font-size:14px;
+    }
+    .factory_text_t2 {
+        font-size:12px;
+    }
+}

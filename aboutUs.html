@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="kemaico">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/translate.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+	<nav class="nav flex">
+            <img src="./images/logo.png" alt="" class="logo" onclick="window.location.href='./index.html'">
+            <!-- 手机端导航 -->
+            <ul class="nav_mobile">
+                <li><a href="index.html" class="trn" data-trn-key="Home">HOME</a></li>
+                <li><a href="product.html" class="trn" data-trn-key="Product">PRODUCT</a></li>
+                <li><a href="industry.html" class="trn" data-trn-key="Industry">INDUSTRY</a></li>
+                <li><a href="information.html" class="trn" data-trn-key="Information">INFORMATION</a></li>
+                <li><a href="case.html" class="trn" data-trn-key="Case">CASE</a></li>
+                <li><a href="aboutUs.html" class="active trn" data-trn-key="Aboutus">ABOUT US</a></li>
+                <li><a href="contact.html" class="trn" data-trn-key="Contact">CONTACT US</a></li>
+            </ul>
+            <!-- Pc端导航 -->
+            <ul class="nav_ul flex">
+                <li><a href="index.html" class="trn" data-trn-key="Home">HOME</a></li>
+                <li><a href="product.html" class="trn" data-trn-key="Product">PRODUCT</a></li>
+                <li><a href="industry.html" class="trn" data-trn-key="Industry">INDUSTRY</a></li>
+                <li><a href="information.html" class="trn" data-trn-key="Information">INFORMATION</a></li>
+                <li><a href="case.html" class="trn" data-trn-key="Case">CASE</a></li>
+                <li><a href="aboutUs.html" class="active trn" data-trn-key="Aboutus">ABOUT US</a></li>
+                <li><a href="contact.html" class="trn" data-trn-key="Contact">CONTACT US</a></li>
+            </ul>
+            <div class="flex more-box">
+                <div class="language">
+                        <img src="./images/cn.png" alt="" class="change_lang" data-value="ch">
+                        <span class="line_clo flex"></span>
+                        <img src="./images/en.png" alt=""class="change_lang" data-value="en">
+                </div>
+                <img src="./images/more.png" alt="" class="more">
+            </div>
+    </nav>
+    <!-- banner -->
+	<div class="banner"><img src="./images/about.png" alt=""></div>
+	<!-- 主要内容 -->
+        <!-- 视频 -->
+    <div class="videoParent">
+        <div class="videoBox  fadeIn">
+            <img class="video_img" src="./images/video_img.png" alt="">
+            <div class="video_play flex">
+                <img class="video_play_img" src="./images/play.png" alt="">
+            </div>
+        </div>
+        <video id="media" class="myVideo" controls="controls">
+            <source src="video/aboutVideo.mp4" type="video/mp4" />
+            您的浏览器版本太低,请及时更新
+        </video>
+    </div>
+    
+    <!-- 文字介绍 -->
+    <div class="textIntroduction">
+        <div class="textIntroductionTitle fadeIn trn"  data-trn-key="Kemaico">KEMAICO GROUP</div>
+        <div class="textIntroductionTitle fadeIn">2005 <span class="trn"  data-trn-key="Establish">ESTABLISH</span></div>
+        <div class="textIntroductionCon fadeIn trn"  data-trn-key="Kemaico_txt">Kemaico has a strong research team, and engages the famous experts and pro-fessor as technical advisor, who are in charge of the development, test and pro-motion for new material, new technique and new products. At the same time, we keep the close cooperation relationship with the universities and institutes of scientific research, and have developed many new products which are well received from our end users.</div>
+    </div>
+    <!-- 图文介绍 -->
+    <div class="imgText">
+        <div class="imgText_li flex">
+            <img class="imgText_img  bounceInLeft" src="./images/imgText1.png" alt="">
+            <div class="imgText_text imgText_textA flex  bounceInRight">
+                <div class="imgText_text_box">
+                    <div class="imgText_text_title trn" data-trn-key="Maxdrilltools">MAXDRILL ROCK TOOLS</div>
+                    <div class="imgText_text_title use_less">/</div>
+                    <div class="imgText_text_con imgText_text_con1 trn"  data-trn-key="Maxdrilltools_txt">Since 2005, Maxdrill Rock Tools has been striving to manufacture high quality rock drilling tools and rock anchoring for globe customers in mineral explorat-ion,underground mining in soft and hard rock, surface mining and construction, tunneling, slope stabilization industry and etc. And we gradually become one of the most credible Chinese manufacturers in the industry.</div>
+                </div>
+            </div>
+        </div>
+        <div class="imgText_li flex">
+            <div class="imgText_text imgText_textB flex  bounceInLeft">
+                <div class="imgText_text_box">
+                    <div class="imgText_text_title trn" data-trn-key="Kemaicousa">KEMAICO USA</div>
+                    <div class="imgText_text_title use_less">/</div>
+                    <div class="imgText_text_con imgText_text_con2 trn" data-trn-key="Kemaicousa_txt">
+                        Kemaico is a leading manufacturer of rock tools starting operations in 2005. Our main areas of operation include research, development and production of tophammer, DTH, self-drilling and taphole drilling tools.We use high quality raw materials and the latest production techno-logies to ensure our products withstand even the tough-est conditions. As an ISO9001:2008 certified company; we maintain consistent quality for our products. More-over our network of sales and marketing teams strives to service our clients in a timely and professional manner. Kemaico products are used consistently in North Amer-ica, South America, Europe, Africa, Asia and Australia.
+                    </div>
+                </div>
+            </div>
+            <img class="imgText_img flex  bounceInRight" src="./images/imgText2.png" alt="">
+    
+        </div>
+    </div>
+    <!-- 数据 -->
+    <div class="numberBox ">
+        <div class="number flex">
+            <div class="number_li">
+                <div class="number_li_t1"><span class="counter">10</span>+</div>
+                <div class="number_li_t2 trn" data-trn-key="Jobfield">JOB FIELD</div>
+            </div>
+            <div class="number_li">
+                <div class="number_li_t1"><span class="counter">100</span>+</div>
+                <div class="number_li_t2 trn" data-trn-key="Partner">PARTNER</div>
+            </div>
+            <div class="number_li">
+                <div class="number_li_t1"><span class="counter">50</span>+</div>
+                <div class="number_li_t2 trn" data-trn-key="Exports">EXPORTS</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 证书 -->
+    <div class="certificate  fadeIn">
+        <div class="certificate_title trn" data-trn-key="Certificate">CERTIFICATE</div>
+        <div class="certificate_subTitle trn" data-trn-key="Intellectual">INTELLECTUAL PROPERTY MANAGEMENT SYSTEM CERTIFICATE</div>
+        <div class="certificate_con trn" data-trn-key="Intellectual_txt">The intellectual property management system certification is to standardize
+            intellectual property certification activities, improve their effectiveness.</div>
+        <div class="certificate_subTitle trn" data-trn-key="Iso">ISO CERTIFICATE</div>
+        <div class="certificate_con trn" data-trn-key="Iso_txt">Our company passed the standard of quality management system of ISO 90012008
+            approval.</div>
+        <div class="certificate_img flex">
+            <img src="./images/certificate_img1.png" alt="">
+            <img src="./images/certificate_img2.png" alt="">
+            <img src="./images/certificate_img3.png" alt="">
+        </div>
+    </div>
+    <!-- our factory -->
+    <div class="factory flex">
+        <img class="factory_img bounceInLeft" src="./images/factory.png" alt="">
+        <div class="factory_text bounceInRight">
+            <div class="factory_text_t1 trn" data-trn-key="Ourfactory">OUR FACTORY</div>
+            <div class="factory_text_t1">/</div>
+            <div class="factory_text_t2 trn" data-trn-key="Ourfactory_txt">Maxdrill Rock Tools Company is a prof-essional drilling tools manufacturer and
+                supplier based on international leading technology，qulified imported material and advanced production
+                process.</div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer_top">
+            <div class="footer_top_t1 flex">
+                <img src="./images/location.png" alt="">
+                <div class="trn" data-trn-key="Address">9/F, Fuzhong International Plaza, No.72 XinHua Road,Nanming District, Guiyang, Guizhou,China, 550001</div>
+            </div>
+            <div class="footer_top_t2 flex">
+                <div class="footer_top_t2_li flex">
+                    <img src="./images/phone.png" alt="">
+                    <div><p>+86-851-88639105</p><p>+86-851-88639106</p></div>
+                </div>
+                <div class="footer_top_t2_li flex">
+                    <img src="./images/email.png" alt="">
+                    <div>office@kemaico.com</div>
+                </div>
+                <div class="footer_top_t2_li flex">
+                    <img src="./images/phone2.png" alt="">
+                    <div>+86-851-88639108</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_line">
+            <span class="line"></span><img class="footer_logo" src="./images/logo2.png" alt=""><span class="line"></span>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_bottom_aBox flex">
+                <div class="footer_bottom_li" ><a href="./index.html" class="trn" data-trn-key="Home">HOME</a></div>
+                <div class="footer_bottom_li" ><a href="./product.html" class="trn" data-trn-key="Product">PRODUCT</a></div>
+                <div class="footer_bottom_li"><a href="./industry.html" class="trn" data-trn-key="Industry">INDUSTRY</a></div>
+                <div class="footer_bottom_li" ><a href="./information.html" class="trn" data-trn-key="Information">INFORMATION</a></div>
+                <div class="footer_bottom_li" ><a href="./case.html" class="trn" data-trn-key="Case">CASE</a></div>
+                <div class="footer_bottom_li" ><a href="./aboutUs.html" class="trn" data-trn-key="Aboutus">ABOUT US</a></div>
+                <div class="footer_bottom_li" ><a href="./contact.html" class="trn" data-trn-key="Contact">CONTACT US</a></div>
+            </div>
+            <div class="contact">
+                <a href="https://www.facebook.com/profile.php?id=100009841548864&fref=pb&hc_location=friends_tab">
+                    <img src="./images/facebook.png" alt="">
+                </a>
+                <a href="https://twitter.com/KemaicoUSACorp?lang=en">
+                    <img src="./images/tw.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/goole.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/countup.js"></script>
+    <script src="./js/aboutUs.js"></script>
+</body>
+</html>
