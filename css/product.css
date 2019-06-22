@@ -2,7 +2,7 @@
     width: 7.95rem;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-top: 0.677rem;
+    margin-top: 0.8rem;
     background: #D2D2D2;
     /* padding: 15px 0.11rem; */
     padding-bottom:0;
@@ -138,7 +138,7 @@
     justify-content: space-between;
     width: 2.16rem;
     font-size: 20px;
-    margin: 0.3rem 0 0 1rem;
+    margin: 0.9rem 0 0 1rem;
     cursor: pointer;
     display: none;
     min-width: 100px;
