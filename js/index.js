@@ -215,48 +215,92 @@
             ch:"矿山"
         },
         "Mining_txt":{
-            en:"For Mining Industry,there are various of tools suitable in this area as below:Tapered Drilling toolsBench DrillingShank AdaptorDrifting & TunnelingDTH Drilling Tools",
-            ch:"对于采矿业，将会使用到以下钻具：锥度钻具 中深孔钻具 钎尾掘进和隧道钻具 潜孔钻具"
+            en:"For Mining Industry,there are various of tools suitable in this area as below: ",
+            ch:"对于采矿业，将会使用到以下钻具："
+        },
+        "TaperedDrillingtools":{
+            en:"Tapered Drilling tools",
+            ch:"锥度钻具"
+        },
+        "BenchDrilling":{
+            en:"Bench Drilling",
+            ch:"中深孔钻具"
+        },
+        "ShankAdaptor":{
+            en:"Shank Adaptor",
+            ch:"钎尾"
+        },
+        "Drifting&Tunneling":{
+            en:"Drifting & Tunneling",
+            ch:"钎尾掘进和隧道钻具"
+        },
+        "DTHDrillingTools":{
+            en:"DTH Drilling Tools",
+            ch:"潜孔钻具"
         },
         "Pilling":{
             en:"PILLING",
             ch:"打桩"
         },
         "Pilling_txt":{
-            en:"For Pilling Industry,there are various of tools suitable in this area as below: DTH Drilling ToolsOverburden Drilling System Self-Drilling Anchor System",
-            ch:"对于打桩项目，将会使用到以下钻具：潜孔钻具 跟管钻具 锚固钻具"
+            en:"For Pilling Industry,there are various of tools suitable in this area as below:",
+            ch:"对于打桩项目，将会使用到以下钻具："
+        },
+        "OverburdenDrillingSystem":{
+            en:"Overburden Drilling System",
+            ch:"跟管钻具"
+        },
+        "Self-DrillingAnchorSystem":{
+            en:"Self-Drilling Anchor System",
+            ch:"锚固钻具"
         },
         "Quarry":{
             en:"QUARRY AND AGGREGATE",
             ch:"采石"
         },
         "Quarry_txt":{
-            en:"For Quarry and Aggregate Industry,there are various of tools suitable in this area as below:Tapered drilling toolsH-Thread Drilling ToolsBench DrillingDTH Drilling ToolsOverburden Drilling System",
-            ch:"对于采石项目，将会使用到以下钻具：锥度钻具 H螺纹钻具中深孔钻具 潜孔钻具 跟管钻具"
+            en:"For Quarry and Aggregate Industry,there are various of tools suitable in this area as below:",
+            ch:"对于采石项目，将会使用到以下钻具：   "
+        },
+        "H-ThreadDrillingTools":{
+            en:"H-Thread Drilling Tools",
+            ch:"H螺纹钻具"
+        },
+        "Quarry_txt4":{
+            en:"DTH Drilling Tools",
+            ch:"潜孔钻具"
         },
         "Tunneling":{
             en:"TUNNELING",
             ch:"隧道"
         },
         "Tunneling_txt":{
-            en:"For Tunneling Industry,there are various of tools suitable in this area as below:Drifting & TunnelingDTH Drilling ToolsOverburden Drilling SystemSelf-Drilling Anchor System",
-            ch:"对于隧道项目，将会使用到如下钻具：掘进和隧道钻具 跟管钻具 锚固钻具"
+            en:"For Tunneling Industry,there are various of tools suitable in this area as below:",
+            ch:"对于隧道项目，将会使用到如下钻具："
+        },
+        "DTDTools":{
+            en:"Drifting & TunnelingDTH Drilling Tools",
+            ch:"掘进和隧道钻具"
         },
         "Water":{
             en:"WATER WELL DRILLING",
             ch:"水井"
         },
         "Water_txt":{
-            en:"For Water Well Industry,there are various of tools suitable in this area as below:DTH Drilling Tools Overburden Drilling System",
-            ch:"对于水井项目，将会使用到如下钻具：潜孔钻具 跟管钻具"
+            en:"For Water Well Industry,there are various of tools suitable in this area as below: ",
+            ch:"对于水井项目，将会使用到如下钻具："
         },
         "Construction":{
             en:"CONSTRUCTION",
             ch:"建筑"
         },
         "Construction_txt":{
-            en:"For Construction Industry,there are various of tools suitable in this area as below:DTH Drilling ToolsTapered Drilling Tools H-Thread Drilling Tools Bench Drilling Shank Adapter Self-Drilling AnchorSystem HDD Drill Pipe",
-            ch:"对于建筑项目，将会使用到如下钻具：潜孔钻具 锥度钻具 H螺纹钻具 中深孔钻具 钎尾 锚固钻具 非开挖钻具"
+            en:"For Construction Industry,there are various of tools suitable in this area as below:",
+            ch:"对于建筑项目，将会使用到如下钻具："
+        },
+        "HDDDrillPipe":{
+            en:"HDD Drill Pipe",
+            ch:"非开挖钻具"
         },
         "Enterrrise":{
             en:"ENTERPRISE NEWS",

@@ -22,7 +22,9 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: .125rem
+}
+.industry_list{
+    font-size: .125rem;
 }
 .industry_list li{
     width: 2.083333rem;
@@ -31,9 +33,10 @@
     flex-direction: column;
     overflow: hidden;
     min-width: 190px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     position: relative;
     padding-bottom: .625rem;
+    /* background-color: #fff; */
 }
 .industry_list>li img{
     width: 100%;
@@ -133,8 +136,8 @@
     .title_s{
         font-size: 24px;
     }
-    .industry_list>li{
-        font-size:12px;
+    .industry_list{
+        font-size:16px;
     }
     .prev,.next{
         width: 30px;
@@ -172,4 +175,23 @@
     margin-top: 0;
     z-index: 200;
     outline: none;
+}
+.banner:before,.banner:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: .3125rem;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+}
+.banner:before{
+    border-radius:  0 0 100% 100% ;
+    top: 0;
+    left: 0;
+}
+.banner:after{
+    border-radius: 100% 100% 0 0;
+    bottom: 0;
+    left: 0;
 }
