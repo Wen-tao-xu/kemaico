@@ -115,6 +115,9 @@
 .secondNav>li>a{
     padding-bottom: 10px;
 }
+.underline a{
+    color: #E77A2F;
+}
 .underline::after{
     content: "";
     display: inline-block;
@@ -169,7 +172,7 @@
     .secondNav{
         margin-bottom: .208333rem;
     }
-    .newsList{
-        /* padding-top: 100px; */
+    .caseNews{
+        padding-top: .625rem;
     }
 }
